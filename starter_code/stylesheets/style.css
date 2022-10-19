@@ -8,3 +8,147 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@media  (max-width: 768px) {
+    .responsive-div {
+      background-color: #540B51;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .slack-logo {
+        width: 20%;
+    }
+
+    .nav-icons {
+        display: flex;
+        justify-content: space-between;
+        background-color: #540B51;
+        border: none;
+    }
+
+    header > div > h1 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header > div > p  {
+        text-align: center;
+        color: white;
+    
+    }
+
+    header > div > p > span {
+        color: yellow;
+    
+    }
+
+      .button-blue {
+        cursor: pointer;
+        background: #4285F4;
+        color:  #fff !important;
+        padding: 1rem 1rem;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border:none;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 1rem 0.5rem;
+      }
+      
+      .button-blue > img {
+        width: 20px;margin-right: 1rem;
+        background-color: #fff;
+        padding: 2px;
+        border-radius: 7px;
+      }
+      
+      .button-white {
+        cursor: pointer;
+        background: #fff;
+        color:  #540B51 !important;
+        padding: 1rem 1rem;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:none;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 1rem 0.5rem;
+      }
+      
+     
+      
+      /** LOGO **/
+      .logo{
+        width: 150px;
+        height: 65px;
+        background: url(../images/slack-logo.png) no-repeat;
+        background-position: 0%;
+        background-size: 100%;
+      }
+
+      
+
+    .banner{
+        display:flex;
+        width: 100%; 
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .section-2{ 
+        background: #F3EAE2;
+      
+        
+    }
+
+    .section-2 > p {
+        display: flex;
+        justify-content: center;
+        text-transform:uppercase;
+        margin-bottom:0.5rem;
+        padding-top:2rem;
+    }
+
+    .icons-section-2{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-bottom:0rem;
+        margin-top: 4rem;
+        
+      }
+
+      .icons-section-2 > img {
+        display:flex;  
+        max-height: 40px;
+        margin-right: 1rem;
+      }
+      
+      .section-3 {    
+        background: #F3EAE2;
+       }
+
+       .section-3-img {
+        display:flex;
+        width: 50%; 
+       }
+
+
+    
+
+     
+
+
+
+
+  }
