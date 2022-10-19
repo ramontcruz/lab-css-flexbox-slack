@@ -47,7 +47,13 @@ footer links grey: #454245
     
     }
 
-      .button-blue {
+    header > div > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-blue {
         cursor: pointer;
         background: #4285F4;
         color:  #fff !important;
@@ -64,7 +70,8 @@ footer links grey: #454245
       }
       
       .button-blue > img {
-        width: 20px;margin-right: 1rem;
+        width: 20px;
+        margin-right: 1rem;
         background-color: #fff;
         padding: 2px;
         border-radius: 7px;
@@ -85,9 +92,6 @@ footer links grey: #454245
         margin: 1rem 0.5rem;
       }
       
-     
-      
-      /** LOGO **/
       .logo{
         width: 150px;
         height: 65px;
